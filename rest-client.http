@@ -1,0 +1,23 @@
+### My API endpoints
+
+POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+    "title": "Forever Young",
+    "artists": ["Jay-Z", "Kandy"],
+    "releaseDate": "2025-01-03",
+    "duration": "02:34"
+}
+
+### Get all the songd
+GET http://localhost:3000/songs
+
+### Get a song by Id
+GET http://localhost:3000/songs/1
+
+### Update a song by ID
+PUT http://localhost:3000/songs/1
+
+### Delete a song by ID
+DELETE http://localhost:3000/songs/1
