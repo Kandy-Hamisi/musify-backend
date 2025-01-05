@@ -10,7 +10,7 @@ Content-Type: application/json
     "duration": "02:34"
 }
 
-### Get all the songd
+### Get all the songs
 GET http://localhost:3000/songs
 
 ### Get a song by Id
